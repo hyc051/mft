@@ -9,7 +9,7 @@ Step to run this version:
 
 2. Navigate to the project director
 
-   `cd electronApp`
+   `cd mft-main`
 
 4. Install relevant dependencies:
   
