@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Storage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-container">
+    <div id="mainPage" class="main-container">
+        <div class="storage-list-container">
+            <h2>Select Storage</h2>
+            <div id="storageList" class="storage-list"></div>
+            <button id="addButton">Add</button>
+            <button id="removeButton">Remove Selected Storage</button>
+        </div>
+
+        <div class="file-browser">
+            <h2>File Browser</h2>
+            <div class="path">Path: /</div>
+            <div class="file-list"></div>
+            <div class="file-actions">
+                <button id="copyButton">Copy File</button>
+                <button id="pasteButton">Paste File</button>
+                <button id="deleteButton">Delete File</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="addStoragePage" class="add-storage-container" style="display: none;">
+        <button id="backButton">&#8592;</button>
+        <h2>Add Storage</h2>
+        <div class="storage-options">
+            <button class="storage-option" data-type="S3">S3</button>
+            <button class="storage-option" data-type="Google Cloud Storage (GCS)">Google Cloud Storage (GCS)</button>
+            <button class="storage-option" data-type="Azure Storage">Azure Storage</button>
+            <button class="storage-option" data-type="Openstack SWIFT">Openstack SWIFT</button>
+            <button class="storage-option" data-type="SCP">SCP</button>
+            <button class="storage-option" data-type="FTP">FTP</button>
+            <button class="storage-option" data-type="Box">Box</button>
+            <button class="storage-option" data-type="DropBox">DropBox</button>
+            <button class="storage-option" data-type="OData">OData</button>
+            <button class="storage-option" data-type="Agent">Agent</button>
+            <button class="storage-option" data-type="HTTP">HTTP</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

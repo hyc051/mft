@@ -1,0 +1,190 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.storage-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h2 {
+    text-indent: 20px;
+}
+
+.storage-list th,
+.storage-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.storage-list th {
+    background-color: #f2f2f2;
+}
+
+button#addButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button#addButton:hover {
+    background-color: #45a049;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: linear-gradient(to right, #def2fc, #dbf9ff);
+}
+
+.app-container {
+    display: flex;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.storage-list-container, .file-browser {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.storage-list-container {
+    background-image: linear-gradient(to right, #def2fc, #dbf9ff);
+    padding: 20px;
+}
+
+.file-browser {
+    background-color: #d4ebfa;
+    padding: 20px;
+}
+.storage-item {
+    background: #CCC;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.storage-item.selected {
+    background-color: #3498db;
+}
+
+button#removeButton {
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button#removeButton:hover {
+    background-color: #e74c3c;
+}
+
+.path {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.file-item {
+    background: #CCC;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.file-item:last-child {
+    border-bottom: none;
+}
+
+.file-item:hover {
+    background-color: #e0e0e0;
+}
+
+.file-actions button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.file-actions button:hover {
+    opacity: 0.8;
+}
+
+#copyButton {
+    background-color: #f1c40f;
+    color: white;
+}
+
+#pasteButton {
+    background-color: #2ecc71;
+    color: white;
+}
+
+#deleteButton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.file-item.selected {
+    background-color: #add8e6;
+}
+
+.add-storage-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#backButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+.storage-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.storage-option {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.storage-option:hover {
+    background-color: #e0e0e0;
+}
