@@ -11,7 +11,7 @@ Step to run this version:
 
    `cd mft`
 
-4. Install relevant dependencies(need to download Node.js first):
+4. Install relevant dependencies (need to download Node.js first):
   
    `npm install`
 
