@@ -9,9 +9,9 @@ Step to run this version:
 
 2. Navigate to the project director
 
-   `cd mft-main`
+   `cd mft`
 
-4. Install relevant dependencies:
+4. Install relevant dependencies(need to download Node.js first):
   
    `npm install`
 
